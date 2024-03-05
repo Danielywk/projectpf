@@ -1,0 +1,93 @@
+body{
+	background: url("../img/fondoo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+    
+}
+
+  h1, h2 {
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	font-family: 35px Arial Black, sans-serif;
+	padding: 8px;
+	color: rgb(0,0,0)
+}
+
+.contenedor{
+
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.contenedor h1{
+	/*font-size: 30px;*/
+	font: 25px Arial Black, sans-serif;
+	color: rgb(0, 0, 0);
+
+}
+
+#cabecera p{
+	text-align: center;
+	font-size: 20px;
+	color: rgb(0, 0, 0);
+}
+
+#cabecera{
+	padding: 15px;
+	color: rgb(240,255,255);
+	background: rgb(230,230,250,0.4) ;
+	height: 80%;
+	width: 50%;
+	margin-left: 22%;
+	margin-top: 7%;
+}
+
+#cabecera h1{
+  float: center;
+}
+
+#cabecera h2{
+  float: center;
+}
+
+.boton{
+	
+	background-color: #48e;
+	color: rgb(0, 0, 0);
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;	
+	font-weight: bold;
+}
+
+/* Estilo pie */
+.pie {
+	font: 30px Times New Roman, sans-serif;
+	margin-bottom: 5%;
+	margin-left: 35%;
+}
+
+/*#cabecera{
+	
+}*/
+input[type='submit']{
+	background-color: #48e;
+	color: rgb(0, 0, 0);
+	width: calc(80% - 20px);
+	margin: 0 10%;
+	margin-top: 22px;
+	border: none;	
+	font-weight: bold;
+}
+
+input {
+	width: calc(70% - 30px);
+	padding: 9px;
+	margin: auto;
+	margin-top: 12px;
+	font-size: 16px
+}
